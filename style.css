@@ -23,8 +23,7 @@ body {
     background-image: url('./images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
     background-size: 100%;
-    background-color: var(--Paleblue);
-    max-width: 1440px;
+    background-color: var(--Paleblue);    
     margin: 0 auto;
     height: 100vh;
     display: flex;
@@ -34,7 +33,6 @@ body {
 
 .card {
     max-width: 350px;
-    height: 620px;
     border-radius: .625rem;
     background-color: white;
     display: flex;
@@ -137,6 +135,7 @@ button {
 .cancel {
     background-color: white;
     color: var(--Desaturatedblue);
+    margin-bottom: 20px;
 }
 
 .change:hover {
